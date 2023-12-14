@@ -1,14 +1,16 @@
-import './App.css'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import PreBirthday from './components/PreBirthday';
 
-function App() {
-
+const App = () => {
   return (
-    <>
+    <Router>
       <div>
-        <span>Hola mundo</span>
+        <Routes>
+          <Route path="/pre-birthday" element={<PreBirthday />} />
+        </Routes>
       </div>
-    </>
-  )
-}
+    </Router>
+  );
+};
 
-export default App
+export default App;
