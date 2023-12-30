@@ -1,6 +1,4 @@
-import CountdownTimer from "./CountdownTimer"
-
-const PreBirthday = () => {
+const StartCard = () => {
     return (
         <section className="w-full h-screen flex items-center justify-center bg-gradient-to-tr from-emerald-200 via-sky-200 to-pink-200">
             <div className="w-[90%] flex-row text-center font-Oswald">
@@ -16,11 +14,11 @@ const PreBirthday = () => {
                     </div>
                 </div>
                 <div className="text-5xl font-semibold m-auto bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent">
-                    <CountdownTimer targetDate="2024-01-13T00:01:00" />
+                    {/* <CountdownTimer targetDate="2024-01-13T00:01:00" /> */}
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
-export default PreBirthday;
+export default StartCard
