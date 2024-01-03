@@ -1,5 +1,3 @@
-import React from 'react'
-
 const HelpCard = () => {
     return (
         <div>HelpCard</div>
