@@ -14,7 +14,6 @@ const App = () => {
           <Route path="/end-card" element={<EndCard />} />
           <Route path="/help-card" element={<HelpCard />} />
         </Routes>
-        <Link to="/pre-birthday">Click here</Link>
       </div>
     </Router>
   );
