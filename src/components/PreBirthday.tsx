@@ -10,7 +10,7 @@ const PreBirthday = () => {
                     <div>
                         <div className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gradient-to-r from-fuchsia-500 to-cyan-500 relative inline-block">
                             <span className="relative text-white">{"LAURA'S BIRTHDAY"}</span>
-                            {['🥳', '🥳', '🥳', '🥳', '🥳', '🥳', '🥳', '🥳', '🥳', '🥳', '🥳', '🥳'].map(emoji => <LluviaEmojies emojis={[emoji]} />)}
+                            {['🥳', '🎉', '🎉', '🎁', '🥳', '🍆', '🎉', '🥳', '🎉', '🥳', '🥳', '♣️', '♦️', '♣️'].map(emoji => <LluviaEmojies emojis={[emoji]} />)}
                         </div>
                     </div>
                     <div>

@@ -18,10 +18,11 @@ const LluviaEmojies: React.FC<LluviaEmojiesProps> = ({ emojis }) => {
             y: `${startPositionY}px`,
             opacity: 1,
             transition: {
-                duration: 3,
-                ease: 'linear',
+                duration: Math.random() * (6 - 3) + 3,
+                ease: 'easeOut',
                 repeat: Infinity,
                 repeatType: 'loop' as const,
+
             },
         };
     };
@@ -39,7 +40,7 @@ const LluviaEmojies: React.FC<LluviaEmojiesProps> = ({ emojis }) => {
     }, []);
 
     return (
-        <div style={{ position: 'fixed', width: '100vw', height: '100vh', overflow: 'hidden', fontSize: '60px' }}>
+        <div style={{ position: 'fixed', width: '100vw', height: '500px', overflow: 'hidden', fontSize: '60px', right: '0px' }}>
             {/* Renderizar emojis animados */}
             {emojis.map((emoji, index) => (
                 <motion.div key={index} animate={animationControl} initial={false} variants={{ open: createAnimation() }}>
