@@ -9,14 +9,12 @@ const BirthdayCard = () => {
                             <span className="relative text-white">{"YO NACÍ PARA AMAR"}</span>
                         </div>
                     </div>
-                    <div>
-                        <span>{'MI FLAQUITA, GRACIAS POR CRUZARTE EN MI CAMINO. HOY CELEBRAMOS EN EL CIELO Y LA TIERRA LA INMENSA FORTUNA QUE ES TENERTE A NUESTRO LADO.'}</span>
-                        <br />
-                        <span>{'ESPERO DISFRUTES DE ESTE REGALO POR EL RESTO DE TU VIDA'}</span>
+                    <div className="mt-5">
+                        <span className="font-light text-3xl text-gray-500">{'Dirígete a tu cuarto; allí, si buscas bien, encontrarás a alguien que te acompaña en todo momento y te hará sonreír en los momentos más difíciles. Estoy seguro de que te dará ánimo para seguir siendo esa mujer tan especial que eres.'}</span>
                     </div>
-                </div>
-                <div className="text-5xl font-semibold m-auto bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent">
-                    {/* <CountdownTimer targetDate="2024-01-13T00:01:00" /> */}
+                    <div className="mt-2">
+                        <span className="text-3xl">{'🩵 TE AMO MUCHO MÁS ARRIBA DEL CIELO 🩵'}</span>
+                    </div>
                 </div>
             </div>
         </section>
